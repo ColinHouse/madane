@@ -2,9 +2,15 @@
 
 > 当我把 VOCALOID 和 REAPER 交给 Claude
 
-一首写给初音ミク的抒情曲（80 BPM，4:35）。旋律、编曲、混音和故事 PV 都由 Claude（Anthropic）在一次对话里完成：它写 VOCALOID 工程文件和 REAPER 脚本，用 Python 合成电子音色，逐帧渲染 PV。
+一首写给初音ミク的抒情曲（80 BPM，4:35）。Astrology 写了一小段日文歌词作为引子，然后把 VOCALOID 和 REAPER 交给了 Claude Opus 5.5。旋律、编曲、混音和故事 PV 都由 Claude 在一次对话里完成：它写 VOCALOID 工程文件和 REAPER 脚本，用 Python 合成电子音色，逐帧渲染 PV。
 
-Claude 听不见声音。每一版都靠两样东西判断：测量（响度、频谱、立体声宽度、人声和伴奏的比例、每个音符的音高），以及 UP 主的耳朵。
+Claude 听不见声音。每一版都靠两样东西判断：测量（响度、频谱、立体声宽度、人声和伴奏的比例、每个音符的音高），以及 Astrology 的耳朵。导出人声那一步也是 Astrology 在 VOCALOID 里替它按的。
+
+## Staff
+
+- 原词・企划：Astrology
+- 歌词改写・作曲・编曲・混音・PV：Claude（Anthropic）
+- 演唱：初音ミク V4X（VOCALOID5）
 
 ![PV](docs/pv.jpg)
 
@@ -56,4 +62,4 @@ VOCALOID is a trademark of Yamaha Corporation.
 
 ---
 
-**English.** *まだね* ("not yet") is a VOCALOID ballad written to Hatsune Miku. Claude (Anthropic) wrote the melody, arrangement, mix and story PV in a single conversation, generating VOCALOID5 project files, REAPER Lua scripts, Python-synthesised instruments and a frame-by-frame PV renderer. Claude cannot hear audio: every version was judged by measurements and by the uploader's ears.
+**English.** *まだね* ("not yet") is a VOCALOID ballad written to Hatsune Miku. Astrology wrote a short Japanese lyric as the seed and handed VOCALOID and REAPER to Claude Opus 5.5, which wrote the melody, arrangement, mix and story PV in a single conversation, generating VOCALOID5 project files, REAPER Lua scripts, Python-synthesised instruments and a frame-by-frame PV renderer. Claude cannot hear audio: every version was judged by measurements and by Astrology's ears.

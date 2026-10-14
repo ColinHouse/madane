@@ -1282,7 +1282,11 @@ class Story:
         TYPE.text(cv, GOTHIC, 26, "初音ミク", 156, 800, hexc("#c9d3ea"), 0.9 * k)
         TYPE.text(cv, LATIN, 18, "VOCALOID ORIGINAL", 156, 842, hexc("#9aa6c4"), 0.8 * k, spacing=3)
 
-    CREDITS = PL.PV.CREDITS
+    CREDITS = ["まだね", "vocal   初音ミク V4X", "original lyrics & concept   Astrology",
+               "lyrics, music, arrangement, mix & video   Claude",
+               "piano   Salamander Grand Piano — Alexander Holm (CC-BY 3.0)",
+               "drums   MuldjordKit — Lars Muldjord (CC-BY 4.0)",
+               "orchestra   VSCO-2 Community Edition (CC0)    guitar & bass   FreePats (CC0)"]
 
     def credits(self, cv, t):
         c0 = 266.0
