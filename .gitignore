@@ -1,0 +1,11 @@
+# Only the code, lyrics and docs are tracked. Sample libraries, renders, REAPER and
+# VOCALOID working files stay local; the README says how to rebuild them, and the
+# finished audio, PV and .vpr projects are attached to the GitHub release.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/tools/
+!/lyrics/
+!/docs/
+__pycache__/
